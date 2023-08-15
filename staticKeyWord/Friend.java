@@ -2,8 +2,12 @@ public class Friend {
     // Attributes
     String name;
     static int numberOfFriends;
-    // Methods
+    // Constructor
     Friend (String nameFunction){
         this.name = nameFunction;
+        numberOfFriends++;
     }
+
+    // Methods
+
 }
